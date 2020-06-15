@@ -57,8 +57,8 @@ logo = """
 \033[1;91m##     ## ##     ##  ##  ##    ## 
 \033[1;91m##     ## ##     ## #### ##    ## 
 \033[1;92m║══▒═✺═▒═✺═▒═══¤═¤═¤════════════¤═══║
-\033[1;96m║✯ Creator ✯ JAM SHAHRUKH       ║    
-\033[1;98m║✯ JAM x MISHAL           ║  
+\033[1;96m║✯ Creator ✯ AMIN MALAKE       ║    
+\033[1;98m║✯ AMIN x MALAKE           ║  
 \033[1;96m║✯ I'm Not Responsible For Any Miss Use║
 \033[1;92m║══▒═✺═▒═✺═▒═══¤═¤═¤════════════¤═══║"""
 def tik():
@@ -464,24 +464,24 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;95m•◈•▬ ▬ ▬•◈\033[1;91mJAM-SHAHRUKH\033[1;95m◈•▬ ▬ ▬•◈•"
+	print "\033[1;95m•◈•▬ ▬ ▬•◈\033[1;91mAMIN-MALAKE\033[1;95m◈•▬ ▬ ▬•◈•"
 	print "  \033[1;91m«---•◈•---Developed By JAM-SHAHRUKH--•◈•---»" #Dev:Jam
-	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 Mishal.py)↩\033[1;97m....'
+	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 amin.py)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
 	print """
-░░░░░██╗░█████╗░███╗░░░███╗
-░░░░░██║██╔══██╗████╗░████║
-░░░░░██║███████║██╔████╔██║
-██╗░░██║██╔══██║██║╚██╔╝██║
-╚█████╔╝██║░░██║██║░╚═╝░██║
-░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
+░█████╗░███╗░░░███╗
+██╔══██╗████╗░████║
+███████║██╔████╔██║
+██╔══██║██║╚██╔╝██║
+██║░░██║██║░╚═╝░██║
+╚═╝░░╚═╝╚═╝░░░░░╚═╝
  
          Checkpoint ID Open After 7 Days
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;91m ..Jam-x-Mishi Creations.. \033[1;95m :
+: \033[1;91m ..Amin-x-Malake Creations.. \033[1;95m :
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
-                Facebook
-              \033[1;91mShahrukh22"""
+                Instagram
+              \033[1;91mamin_malake"""
 	
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
 	menu()
